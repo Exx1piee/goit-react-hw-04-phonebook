@@ -1,0 +1,39 @@
+.form {
+  
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  width: 50vw;
+}
+
+.subtitle {
+  font-size: 20px;
+}
+
+.input {
+  font-size: 16px;
+  border: 1px solid;
+  border-color: lightgrey;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.submitBtn {
+  width: 200px;
+  height: 50px;
+  background-color: rgb(137, 137, 210);
+  transition: ease-in-out 15ms;
+  border-radius: 5px;
+  color:aliceblue;
+  border: solid;
+}
+.submitBtn:hover {
+transition: ease-in-out 15ms;
+    background-color: rgb(107, 107, 163);
+
+  }
+  .submitBtn:focus {
+    background-color: rgb(107, 107, 163);
+  }

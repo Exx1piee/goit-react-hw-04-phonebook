@@ -1,0 +1,12 @@
+.list {
+    display: flex;
+  
+    flex-direction: column;
+    gap: 18px;
+    padding-top: 10px;
+    font-size: 18px;
+  }
+  
+  .deleteBtn {
+    margin-left: 20px;
+  }

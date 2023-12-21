@@ -1,0 +1,11 @@
+.filter {
+    font-size: 14px;
+    border: 1px solid;
+    border-color: lightgrey;
+    padding: 5px;
+  }
+  
+  .subtitle {
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
