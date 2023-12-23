@@ -15,14 +15,17 @@ export const App = () => {
 
 
   const addContact = newContact => {
-    const isOnList = contacts.find(contact => contact.name === newContact.name);
-
+    const isOnList = contacts.find(
+      contact => contact.name.toLowerCase() === newContact.name.toLowerCase()
+    );
+  
     if (isOnList) {
       window.alert(`${newContact.name} is already in contacts`);
     } else {
       setContacts(prevcontacts => [newContact, ...prevcontacts]);
     }
   };
+  
 
   useEffect(() => {
     localStorage.setItem('contacts', JSON.stringify(contacts));
